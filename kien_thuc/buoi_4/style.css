@@ -1,0 +1,27 @@
+/* 
+Thứ tự ưu tiên css
+
+1. Tag
+2. Id
+3. Class
+*/
+.heading2 {
+    color: blue;
+}
+
+h3 {
+    font-style: italic;
+}
+
+.form h3 {
+    font-style: normal;
+    color: red;
+}
+
+.sub-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ccc;
+    font-style: normal;
+    background-color: #000;
+}
