@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Đặt Hàng</title>
+  </head>
+  <style>
+    div.group.inlined {
+      width: 40%;
+      display: inline-block;
+      margin: 10px;
+    }
+
+    input {
+      font-size: 1em;
+      width: 300px;
+      padding: 7px;
+    }
+    select {
+      font-size: 1em;
+      width: 84%;
+      padding: 8px;
+    }
+    button {
+      height: 50px;
+      background: rgb(26, 141, 116);
+      border: none;
+      color: white;
+      font-size: 1em;
+      cursor: pointer;
+    }
+  </style>
+
+  <body>
+    <h1>Try a free sample</h1>
+    <p>Sign up to get a coupon you can redeem at your nearest</p>
+
+    <form action="#" method="post">
+      <div class="group inlined">
+        <label for="Name"> <b>First name</b></label>
+        <br />
+        <input type="text" placeholder="John" />
+      </div>
+      <div class="group inlined">
+        <label for="Name"> <b>Last </b></label>
+        <br />
+        <input type="" placeholder="john@example.com" />
+      </div>
+      <div class="group inlined">
+        <label for="Email"> <b>Email </b></label>
+        <br />
+        <input type="email" placeholder="john@example.com" />
+      </div>
+      <div class="group inlined">
+        <label for="Address"> <b>Address</b></label>
+        <br />
+        <input type="email" placeholder="Silk St" />
+      </div>
+      <div class="group inlined">
+        <label for="City"> <b>City</b></label>
+        <br />
+        <input type="city" placeholder="London" />
+      </div>
+      <div class="group inlined">
+        <label for="State"> <b>State</b></label>
+        <br />
+        <input type="text" placeholder="!" />
+      </div>
+      <div class="group inlined">
+        <label for="Zip code"> <b>Zip code</b></label>
+        <br />
+        <input type="zip code" placeholder="EC2Y 8DS" />
+      </div>
+      <div class="group inlined">
+        <label for="country"><b>Country</b></label>
+        <!-- <select name="country" id="date">
+                <option value="UK">United Kindom</option>
+                <option value="USA">United Stated America</option>
+            </select> -->
+        <br />
+        <select name="country" id="country">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div>
+
+      <div class="group inlined">
+        <button type="submit">SEND ME FREE COFFEE</button>
+      </div>
+    </form>
+  </body>
+</html>
