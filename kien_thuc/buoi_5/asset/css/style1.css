@@ -1,0 +1,45 @@
+body {
+    width: 70%;
+}
+
+hr{
+    width: 80px;
+    margin: 0;
+    height: 2px;
+    background-color: orange;
+}
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address,
+.email,
+.telephone{
+    font-size: 18px;
+    display:flex;
+    gap:20px;
+    color: grey;
+    margin:10px;
+}
+
+input {
+    display: block;
+    width: 800px;
+    height: 35px;
+    margin-bottom: 12px;
+}
+
+textarea{
+    display: block;
+    width: 800px;
+    height: 120px;
+    margin-bottom: 12px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(24, 163, 163);
+    border: none;
+    color: #fff;
+}

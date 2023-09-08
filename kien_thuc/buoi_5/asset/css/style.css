@@ -1,0 +1,24 @@
+.div1 {
+    width: 400px;
+    height: 200px;
+    background-color: chartreuse;
+    color: brown;
+    text-align: center;
+    border: 1px solid red;
+    margin-bottom: 20px;
+    margin-right: auto;
+}
+
+.div1 p {
+    padding-top: 20px;
+
+}
+.div2{
+    background-image: url("../buoi_5/asset/IMG-Academy-Album1.jpg");
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px dashed black;
+
+    
+}
