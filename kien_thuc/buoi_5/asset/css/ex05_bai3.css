@@ -1,0 +1,44 @@
+.cover{
+    margin: auto;
+    box-sizing: border-box;
+    width: 1900px;
+    height: 230px;
+    border: 10px solid rgba(255, 255, 255, 0.884);
+    background-color: rgb(1, 88, 88);
+}
+.header{
+    margin-left:30px ;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+#span1{
+    color: orange;
+}
+.text{
+    margin-left:30px ;
+    font-size: 16px;
+    color: white;
+    clear: left;
+}
+.box{
+    margin-left:30px ;
+    display: flex;
+}
+input{
+    display: block;
+    padding-left: 10px;
+    margin-right: 2px;
+    width: 200px;
+    height: 30px;
+}
+button{
+    background-color: rgba(255, 255, 0, 0.897);
+    border: none;
+    display: block;
+    margin-left: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
