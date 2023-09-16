@@ -1,0 +1,9 @@
+PHÂN TÍCH BỐ CỤC WEBSITE:
+    1. header
+    2. main
+        - banner
+        - introduction
+        - book
+        - contact
+        - map
+    3. footer

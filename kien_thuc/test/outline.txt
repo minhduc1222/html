@@ -1,0 +1,18 @@
+HEADER
+    div HEADER
+        nav
+            home
+            band
+            tour
+            contact
+            more
+        search
+
+css
+HEADER
+display
+padding 0 20
+just
+    nav: display
+        home: display bl
+              padding 20, 10
