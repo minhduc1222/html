@@ -80,8 +80,22 @@ main section.intro .subtitle{
 }
 
 main section.intro .des{
-    text-align: center;
     margin: 40px auto;
     width: 800px;
+    text-align: justify
 }
+
+main section.intro .picture{
+    display: flex;
+    justify-content: space-around;
+}
+main section.intro .picture .pic_1{
+
+}
+
+main section.intro .picture .pic_1 p{
+  margin-bottom: 10px;
+}
+
+
 /* END MAIN */

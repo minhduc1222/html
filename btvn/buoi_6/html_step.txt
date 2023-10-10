@@ -1,0 +1,10 @@
+boxicon-> https://github.com/atisawd/boxicons->
+->using via CSS
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    </head>
+remixicon-> github dc de xuat -> CDN <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+gg font-> type pop ->chon poppin-> tat( lay) light, regular, medium, sans bold, extra bold
+ve giao dien-> filter-> nhap gobli -> chon permanent marker -> tat (lay) remove regular 
+cua so ben phai xuat hien-> copy link
