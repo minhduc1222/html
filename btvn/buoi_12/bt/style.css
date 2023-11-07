@@ -2,28 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;/**/
+    font-family: 'Poppins', sans-serif;/*specifies the font for an element, hold several font names as a "fallback" system*/ 
 }
 body{
+
     background:  #ecf0f3;
 }
 .side_bar{
-    position: relative;/* */
+    position: relative;/*specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky */
     top: 0;
     left: -100%;/**/
     width: 300px;
     height: 100vh; /* */
     background: #ecf0f3;
     padding: 12px;
-    box-shadow: -3px -3px 7px #ffffff, /* */
+    box-shadow: -3px -3px 7px #ffffff, 
                 3px 3px 5px #ceced1,
                 inset -3px -3px 7px #ffffff,
                 inset 3px 3px 5px #ceced1;
-    transition: all 0.3s ease;
+    transition: all .3s ease; 
 }
 .side_bar .title{
     display: flex;
-    justify-content: space-evenly;/**/
+    justify-content: space-evenly;
 }
 .side_bar .title .logo{
     font-size: 27px;
@@ -38,14 +39,14 @@ body{
 .side_bar ul a{
     color: #31344b;
     text-decoration: none;
-    display: block; /* */
+    display: block; 
     margin-top: 12px;
     font-size: 18px;
     font-weight: 400;
     padding: 10px 25px;
     border-radius: 6px;
-    box-shadow: -3px -3px 7px #ffffff, /* */
-                 3px 3px 5px #ceced1;/**/
+    box-shadow: -3px -3px 7px #ffffff, 
+                 3px 3px 5px #ceced1;
     position: relative;/**/
 }
 .side_bar ul i{
@@ -59,7 +60,7 @@ body{
 .media_icons a{
     margin: 0 4px;
     font-size: 17px;
-    cursor: pointer; /* */
+    cursor: pointer; 
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -124,7 +125,7 @@ label:hover{/**/
     box-shadow: inset -3px -3px 7px #ffffff,/**/
                 inset  3px 3px 5px #ceced1;/**/
     color: #3498db;
-}
+}  
 #check{/**/
     display: none;
 }
