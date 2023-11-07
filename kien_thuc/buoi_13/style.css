@@ -40,7 +40,7 @@ hr{
 }
 h1{
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 100px;
@@ -54,7 +54,7 @@ h1{
 }
 .footer span{
     position: absolute;
-    top: 97%;
+    top: 95%;
     left: 1%;
     font-size: 30px;
 }
